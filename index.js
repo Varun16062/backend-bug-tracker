@@ -9,7 +9,7 @@ const authToken = require('./middleware/authToken');
 
 require("dotenv").config();
 //database connection
-require('./db/config');
+require('./db/Config');
 //json web token
 const Jwt = require('jsonwebtoken');
 const jwtKey = process.env.JWT_SECRET_KEY;
